@@ -4,29 +4,29 @@ var
     secondnumber: integer;
 begin
 {start of user input}
-write('Enter first number: ');
-readln(firstnumber);
-write('Enter second number: ');
-readln(secondnumber);
+    write('Enter first number: ');
+    readln(firstnumber);
+    write('Enter second number: ');
+    readln(secondnumber);
 {end of user input}
-writeln('-----------------------------------');
+    writeln('-----------------------------------');
 {start of if-else statement}
-if firstnumber > secondnumber then
-begin
-    writeln(firstnumber, ' is greater than ', secondnumber);
-end
-else if secondnumber > firstnumber then
-begin
-    writeln(secondnumber, ' is greater than ', firstnumber);
-end
-else if firstnumber = secondnumber then
-begin
-    writeln(firstnumber, ' is equals to ', secondnumber);
-end
-else
-begin
-    writeln('Potato.');
-end;
+    if firstnumber > secondnumber then
+    begin
+        writeln(firstnumber, ' is greater than ', secondnumber);
+    end
+    else if secondnumber > firstnumber then
+    begin
+        writeln(secondnumber, ' is greater than ', firstnumber);
+    end
+    else if firstnumber = secondnumber then
+    begin
+        writeln(firstnumber, ' is equals to ', secondnumber);
+    end
+    else
+    begin
+        writeln('Potato.');
+    end;
 {end of if-else statement}
 writeln('Press <ENTER> to quit.');
 readln;
